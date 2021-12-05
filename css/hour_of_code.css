@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/hour_back.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 900px;
+}
+
+h1 {
+  margin: 0;
+  color: whitesmoke;
+}
+
+.header-top-text {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  margin-top: 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.header-content .introduction {
+  font-size: 20px;
+  color: rgb(59, 113, 114);
+  background-color: rgb(160 159 195);
+}
+
+#introduction-table {
+  margin-top: 50px;
+  font-size: 29px;
+  color: rgb(59, 113, 114);
+
+  background-color: rgb(160 159 195);
+}
+
+.prev{
+    position: fixed;
+    padding: 15px;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    transition: .4s;
+    cursor: pointer;
+}
+
+i{
+   color: purple;
+   transition: .4s;
+
+}
+
+.prev:hover{
+    background-color: purple;
+}
+
+.prev:hover i{
+    color: black;
+}
+
+
+
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  padding: 45px;
+    font-size: 18px;
+  color:  rgb(0, 0, 0);
+}
+
+
